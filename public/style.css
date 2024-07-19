@@ -1,0 +1,171 @@
+body{
+  background-color: #000;
+}
+.main-container{
+  margin-bottom:60px;
+}
+
+
+.ai-search{
+  border-radius: 30px;
+  background-color: #fff;
+  width: 100%;
+  padding: 2px 26px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-box{
+  padding-top: 10px;
+  z-index: 1;
+}
+
+.nav-box li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.6;
+}
+
+.nav-box li i{
+  font-size: 1.2rem;
+}
+
+.active-bar{
+  opacity :1 !important;
+}
+
+#navList li{
+  cursor: pointer;
+}
+
+.us-pr-pic{
+  width: 50px;
+  height: 50px;
+  background-color:green;
+  border-radius:50%;
+  overflow: hidden;
+}
+
+.us-pr-pic img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.us-pr-ti{
+  font-size: 1.2rem;
+}
+.us-re-ch, .time-stamp ,.st-time-stamp{
+  font-size: 0.7rem !important;
+  opacity :0.6 !important;
+}
+
+.content-box{
+  height :90%;
+  overflow: auto;
+}
+
+.us-st-th{
+  width: 40px;
+  height: 50px;
+  background-color:blue;
+  overflow: hidden;
+}
+
+.us-st-th img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.auth {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.formBox{
+  min-width: 18rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.formBox label{
+  
+  font-size: 14px;
+  
+}
+
+.formBox input{
+  font-size: 16px;
+
+}
+
+.for-pass{
+  margin-top: 24px;
+}
+
+.formBox .for-pass , .for-pass a {
+  font-size: 12px;
+}
+
+.formBox button{
+  font-size: 16px;
+}
+
+
+
+
+
+.writemsg{
+  flex: 1;
+}
+
+.sentBtn button{
+  height: 50px;
+  width: 50px;
+  border-radius:50%;
+}
+
+
+.chat-container {
+  width: 100%; 
+  padding: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  min-width: fit-content;
+  max-width: 70%; /* adjust the width as needed */
+}
+
+.left {
+  background-color: rgb(25, 135, 85);
+  text-align: left;
+  float: left;
+  clear: both;
+    border-radius:0px 10px 10px 10px;
+}
+
+.right {
+  background-color: rgb(25, 135, 85);
+  text-align: right;
+  float: right;
+  clear: both;
+  border-radius:10px 0px 10px 10px;
+}
+
+.converBack{
+  cursor: pointer;
+}
+
+
+.ab-btn{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
